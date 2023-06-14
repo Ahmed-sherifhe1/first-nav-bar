@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    /* padding:0; */
+}
+body{
+    background-color: #4b0101;
+}
+.container {
+    width: 120px;
+    height:100vh;
+    background-color: #250000;
+    color: #d19a00;
+    transition:0.5s;
+    /* height 100vh to take the full screen in height */
+}
+.container p {
+    padding:5px;
+    transition: 0.3s;
+    cursor:pointer;
+}
+.container p:hover {
+    background-color:#38181d7a ;
+    color:#cc2526;
+    transition: 0.3s;
+}
+h2 {
+    /* background-color: #250000; */
+    color: #d19a00;
+    border:none;
+    border-radius: 2px;
+    transition: 0.5s;
+    cursor:pointer;
+}
+h2:hover{
+    /* background-color:#240000d6 ; */
+    color:#4fbccd;
+    transition: 0.3s;
+}
+#close{
+    position:absolute;
+    left:100px;
+    transition: 1s;
+}
+#open{
+    padding:5px;
+    position: absolute;
+}
+.hide{
+    margin-left: -130px;
+    transition:0.5s;
+}
+.hide2{
+    display: none;
+    transition: 0.5s;
+}
